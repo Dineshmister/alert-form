@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <h1>Form</h1>
+    <body>
+        <script type="text/javascript" src="script.js">
+        
+        </script>
+        <form name ="simple" action="">
+        <fieldset>
+            <legend>Just Fill</legend>
+            <center>
+            <label for="confirm">name
+           <input id = "confirm"type="text" name="user" maxlength="30">
+          <input id = "confirm" onclick = "cook()" type="submit"  value="okay"/>
+        </label></br></br>
+        
+        <input type="radio" name="courses" value="BCA" checked="checked">BCA</br>
+        <label>
+        <input type="radio" name="courses" value="B.Com">B.Com
+        </label></br>
+        <input type="radio" name="courses" value="BBA">BBA</br>
+        
+        <select name="Colleges">
+            <option value="Mcc">Madras Christian College</option>
+            <option value="Loyola">Loyola</option>
+            <option value="Srm">Srm college</option>
+
+        </select> </br></br>
+        <input type="submit"  onclick="say()" name="Apply"value="Submit"/><br/>
+        <input type="radio" name="gender" value="Male">Male<br/>
+        <input type="radio" name="gender" value="Female">female<br/>
+        <p>Select the Language You have known</p>
+        <input type="checkbox" name="language" value="Tamil">Tamil<br/>
+        <input type="checkbox" name="language" value="English">English<br/>
+        <br/><p>Upload Your Photo</p>
+        <input type="file" name="photo"/><br/>
+        <input type="submit" name="upload" value="Upload"><br/>
+        <textarea name="review" cols="3" rows="2" required="required">Write your review</textarea><br/>
+        <label>
+        <p>Your password</p>
+        
+        <input type="password" name="password" maxlength="20">
+        </label><br/>
+        <br/>
+        <input type="url" name="websites"/>
+        <input type="submit" onclick = add() value="search"/>
+            </center>
+    </fieldset>
+    <label>Enter Your DOB
+        <input type="date"name="DOB" required="required">
+        </label>
+        <input type="submit" value="Confirm"/>
+        </form>
+    </body>
